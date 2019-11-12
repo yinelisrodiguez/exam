@@ -1,0 +1,58 @@
+html{
+    font-size: 62.5%; /** rest para rems 62.5% = 10px de 16px **/
+
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+h1{
+font-size: 4rem;
+}
+h3{
+font-size: 2rem;
+}
+/**cabecera**/
+header{
+    background: #313131;
+    color: #ffffff;
+    height: 30rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    align-self: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+.yinelis{
+    background-position: center center;
+    padding: 0%;
+    align-self: center;
+}
+.foto-perfil{
+    width: 15rem;
+    height: 15rem;
+    -moz-border-ratiun:50%;
+    -webkit-border-ratiun:50;
+    background-size: cover;
+    border-radius: 50%;
+    display: flex;
+}
+.tabla{
+    align-items: center;
+    background: #313131;
+    color: #ffffff;
+    width: 30rem;
+    font-size: 2rem;
+}
+.ordenar{
+    display: flex;
+}
+.barra{
+    align-self: flex-end;
+    align-self: center;
+}
+.espacio{
+    justify-content: flex-start;
+}
